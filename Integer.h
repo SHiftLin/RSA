@@ -9,7 +9,7 @@ class Int
     ull v[12]; //not unint
     int len;
     bool flag;
-    static const ull base = ull(0xffffffff) + 1; //1000000000;
+    static const ull base = ull(0xffffffff) + 1;
 
     Int copy(int n) const
     {
